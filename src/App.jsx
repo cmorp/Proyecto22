@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./style.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MyContext from "./myContext";

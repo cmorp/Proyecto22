@@ -1,6 +1,6 @@
 import "../assets/css/components.css";
-import Heart from "./Heart";
 import { useContext, useState } from "react";
+import Heart from "./Heart";
 import MyContext from "../myContext";
 
 export default function Home() {

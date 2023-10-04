@@ -3,11 +3,6 @@ body {
 }
 
 .App {
-    font-family: "Roboto", serif;
     text-align: center;
     color: #43a047;
-}
-
-h1 {
-    margin-bottom: 0;
 }

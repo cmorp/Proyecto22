@@ -6,7 +6,8 @@ a {
 
 .navbar {
     background: #43a047;
-    padding: 20px;
+    padding: 30px;
+    font-size: large;
     color: white;
 }
 
@@ -22,28 +23,21 @@ a {
     grid-template-columns: repeat(5, 1fr);
 }
 
-.grid-columns-4 {
-    grid-template-columns: repeat(4, 1fr);
-}
-
 .galeria .foto {
-    cursor: pointer;
-    padding: 10px 10px 0px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
-    height: 200px;
-    border-radius: 20px;
+    padding: 10px 10px 0px 10px;
+    height: 220px;
     background-size: cover;
     background-position: center;
     color: white;
-    text-align: left;
-    text-shadow: 0px 0px 15px black;
+    text-align: left;    
+    cursor: pointer;
 }
 
 .galeria .foto:hover {
-    box-shadow: 0px 0px 2px 1px black;
+    box-shadow: 0px 0px 3px 2px black;
 }
 
 .galeria .foto svg {
